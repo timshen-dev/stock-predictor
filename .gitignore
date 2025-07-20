@@ -3,3 +3,15 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+.vscode/settings.json
+
+# 忽略本地 IDE 设置
+.vscode/
+.idea/
+*.iml
+
+# 编译结果/临时文件
+*.log
+*.class
+out/
+arget/
